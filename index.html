@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oshawott's Pokédex</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="./images/oshawottLogo.png">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<div class="d-flex py-2 px-3 border-3 border-bottom sticky-top" id="navigation-bar">
+    <div class="d-flex align-items-center me-auto">
+        <img src="./images/pokeball.png" height="50px" width="auto">
+        <h1 class="mb-0 ms-2" id="header-title">Oshawott's Pokédex</h1>
+    </div>
+    <div class="d-flex align-items-center" id="navigation-elements">
+        <div id="nav-links" class="p-1 fw-bold"><a class="navigation-bar" href="#pokemon-description">Pokémon Stats</a></div>
+        <div id="nav-links" class="p-1 fw-bold"><a class="navigation-bar" href="#Dr-Juniper-Divider">Pokémon Trainer</a></div>
+        <div id="nav-links" class="p-1 fw-bold"><a class="navigation-bar" href="#pokemon-skills">Pokémon Attacks</a></div>
+        <div id="nav-links" class="p-1 fw-bold"><a class="navigation-bar" href="#pokemon-evolutions">Pokémon Evolutions</a></div>
+        <div id="nav-links" class="p-1"><a class="navigation-bar" href="#pokemon-main-page"><img src="./images/oshawottLogo.png" height="50px" width="auto"></a></div>
+    </div>
+</div>
+<!-- NAVIGATION -->
+
+<!-- STATS -->
+<div id="main-body">
+    <!-- CONTAINER -->
+    <div class="container-fluid p-3 p-lg-5 vh-100" id="pokemon-main-page">
+    </div>
+    <!-- CONTAINER -->
+        <div class="row d-flex p-3 p-lg-5 mt-5 vh-150 align-items-center" id="pokemon-description">
+            <!-- OSHAWOTT IMG -->
+            <div class="col-lg-4 col-md-10 d-flex justify-content-center align-items-center">
+                <img src="./images/oshawott2.png" class="img-fluid" style="max-height: 90vh; width: auto;" alt="Oshawott Pokemon">
+            </div>
+            <!-- OSHAWOTT IMG -->
+            <!-- STATS BEGIN -->
+            <div class="col-lg-8 col-md-10 d-flex align-items-start"> 
+                <!-- OSHAWOTT DESCRIPTION -->
+                <div id="description" class="text-center text-lg-start fs-6" id="oshawotts-description" >
+                    <!-- ROW -->
+                    <div class="row"> 
+                        <!-- BASE STATS -->
+                        <div class="col-lg-6 col-md-12 mb-4 mb-lg-0"> <h3 id="base-stats">Base Stats</h3>
+                            <p>Oshawott, the Sea Otter Pokémon. Oshawott wields the scalchop on its stomach like a knife, blocking the moves of its enemies before slashing back at them in swift retaliation. Despite its battling prowess, Oshawott is known for its playful and sometimes clumsy nature, often seen practicing with its scalchop or getting into comical predicaments. </p>
+                            <!-- base stats table -->
+                            <div class="resp-scroll">
+                                <table class="vitals-table fs-6" id="table-stats">
+                                    <tbody>
+                                        <tr>
+                                            <th>HP</th>
+                                            <td class="cell-num">55</td>
+                                            <td class="cell-barchart">
+                                                <div style="width:30.56%;" class="barchart-bar barchart-rank-2 "></div>
+                                            </td>
+                                            <td class="cell-num">220</td>
+                                            <td class="cell-num">314</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Attack</th>
+                                            <td class="cell-num">55</td>
+                                            <td class="cell-barchart">
+                                                <div style="width:30.56%;" class="barchart-bar barchart-rank-2 "></div>
+                                            </td>
+                                            <td class="cell-num">103</td>
+                                            <td class="cell-num">229</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Defense</th>
+                                            <td class="cell-num">45</td>
+                                            <td class="cell-barchart">
+                                                <div style="width:25.00%;" class="barchart-bar barchart-rank-2 "></div>
+                                            </td>
+                                            <td class="cell-num">85</td>
+                                            <td class="cell-num">207</td>
+                                        </tr>
+                                        <tr>
+                                            <th>SP Atk</th>
+                                            <td class="cell-num">63</td>
+                                            <td class="cell-barchart">
+                                                <div style="width:35.00%;" class="barchart-bar barchart-rank-3 "></div>
+                                            </td>
+                                            <td class="cell-num">117</td>
+                                            <td class="cell-num">247</td>
+                                        </tr>
+                                        <tr>
+                                            <th>SP Def</th>
+                                            <td class="cell-num">45</td>
+                                            <td class="cell-barchart">
+                                                <div style="width:25.00%;" class="barchart-bar barchart-rank-2 "></div>
+                                            </td>
+                                            <td class="cell-num">85</td>
+                                            <td class="cell-num">207</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Speed</th>
+                                            <td class="cell-num">45</td>
+                                            <td class="cell-barchart">
+                                                <div style="width:25.00%;" class="barchart-bar barchart-rank-2 "></div>
+                                            </td>
+                                            <td class="cell-num">85</td>
+                                            <td class="cell-num">207</td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th>TOTAL</th>
+                                            <td class="cell-num cell-total">308</td>
+                                            <th class="cell-barchart"></th>
+                                            <th>MIN</th>
+                                            <th>MAX</th>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                                <div class="fs-6 mt-3">
+                                    <p>As it evolves into Dewott and then Samurott, its fighting style becomes even more refined, transforming from a quick, agile brawler into a majestic and formidable samurai, yet retaining a core of loyalty and determination.</p>
+                                </div>
+                            </div>
+                            <!-- base stats table -->
+                        </div>
+                        <!-- BASE STATS -->
+                        <!-- POKEDEX DATA -->
+                        <div class="col-lg-6 col-md-12"> <div class="row"> <div class="col-12 mb-4"> <h3 id="pokedex-data">Pokédex data</h3>
+                                    <div class="resp-scroll">
+                                        <table class="vitals-table fs-6">
+                                            <tbody>
+                                                <tr>
+                                                    <th>National No.</th>
+                                                    <td>0501</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Type</th>
+                                                    <td id="Water">Water</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Species</th>
+                                                    <td>Sea Otter Pokémon</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Height</th>
+                                                    <td>0.5 m</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Weight</th>
+                                                    <td>5.9 kg</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                        <!-- POKEDEX DATA -->
+                                <!-- breeding -->
+                                <div class="col-12"> <h3 id="breeding">Breeding</h3>
+                                    <div class="resp-scroll">
+                                        <table class="vitals-table fs-6">
+                                            <tbody>
+                                                <tr>
+                                                    <th>Egg Groups</th>
+                                                    <td>Field</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Gender</th>
+                                                    <td><p id="male">87.5% male</p><p id="female">12.5% female</p></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Egg cycles</th>
+                                                    <td>20 (4,884 to 5,140 steps)</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <!-- breeding -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ROW -->
+                </div>
+                <!-- OSHAWOTT DESCRIPTION -->
+            </div>
+            <!-- STATS END -->
+
+            <!-- TRAINER -->
+            <div class="container-fluid p-3 mt-5 p-lg-5" id="Dr-Juniper-Divider">
+                <div class="row d-flex justify-content-around">
+                    <div class="col-md-3 col-12 text-left text-dark p-3 rounded-3 border-5 my-3" id="Dr-Juniper-Card">
+                        <img src="./images/doctorJuniperCard.jpg" class="img-fluid shadow rounded-5">
+                        <h2 class="my-3" id="hydro-pump">DR. JUNIPER</h2>
+                        <p>Pokémon Trainer</p>
+                    </div>
+            <div class="col-md-7 col-12 text-left text-dark p-3 rounded-3 border-5 my-3" id="Dr-Juniper-Description">
+                <h1 class="my-3" id="Dr-Juniper-Description-Header">PROFESSOR AUREA JUNIPER</h1>
+                <p id="Dr-Juniper-Description-Paragraph">Professor Juniper holds a significant place in the Pokémon world as the first female Professor in the Main Series games, a distinction that almost didn't happen, as her character was originally envisioned as male until Ken Sugimori's influential request. Beyond this trailblazing role, Juniper exhibits several unique traits that set her apart. She's the only professor known to permanently keep the Patrat caught during the game's tutorial, which can be found in her lab, and notably, she was responsible for caring for Ash's additional Pokémon in the Unova Region, a task traditionally handled by Professor Oak. Her introduction in Black and White showcases her using a Minccino for battle, a detail that even offers a rare chance for a Shiny encounter in the game's opening.</p>
+                <p id="Dr-Juniper-Description-Paragraph">Juniper's distinctive qualities extend to her very name, as she's the only professor named after a conifer as of Generation 9, diverging from the usual deciduous tree theme. Her physical appearance complements her professional yet approachable demeanor, characterized by her tall stature, fair skin, green eyes, and distinctive poofy honey-colored hair, typically adorned in a pale greenish-blue lab coat. Her consistent presence from the very start of the game, guiding players through the initial choices of First Partner Pokémon and demonstrating essential battle mechanics, solidifies her role as a pivotal and memorable figure in the Pokémon universe.</p>
+            </div>
+            </div>
+        </div>
+        <!-- TRAINER -->
+</div>
+<!-- STATS -->
+    <div class="container-fluid vh-150 p-3 p-lg-5" id="pokemon-skills">
+        <h3 class="text-center my-3 display-3 text-light" id="oshawott-attacks">OSHAWOTT'S ATTACKS</h3>
+        <div class="row d-flex justify-content-around">
+            <!-- HYDROPUMP -->
+            <div class="col-md-3 col-12 text-center text-dark p-3 rounded-4 border-5 my-3" id="hp-card">
+                <img src="./images/oshawottRazorShell.gif" class="img-fluid shadow rounded-4">
+                <h3 class="my-3" id="hydro-pump">HYDRO PUMP</h3>
+                <p>Razor Shell is Oshawott's signature move and a cornerstone of its combat style. This Water-type physical attack showcases Oshawott's mastery over its scalchop, which it detaches from its belly and wields with surprising dexterity.</p>
+                <p>The scalchop, imbued with Water energy, becomes incredibly sharp, allowing Oshawott to deliver swift, powerful slashes that can cut through various obstacles and defenses, often leaving opponents stunned by the speed and precision of the attack.</p>
+            </div>
+            <!-- HYDROPUMP -->
+
+            <!-- RAZOR SHELL -->
+            <div class="col-md-3 col-12 text-center text-dark p-3 rounded-4 border-5 my-3" id="rs-card">
+                <img src="./images/oshawottHydroPump.gif" class="img-fluid shadow rounded-4">
+                <h3 class="my-3" id="razor-shell">RAZOR SHELL</h3>
+                <p>Hydro Pump is a powerful Water-type special attack that exemplifies Oshawott's potential for raw, concentrated power. Though often learned later in its evolutionary line, a particularly skilled Oshawott might be able to muster the energy to unleash this devastating torrent of water. It involves Oshawott gathering a vast amount of water within its body and expelling it as a high-pressure, focused beam capable of knocking back even the sturdiest of opponents and causing significant damage.</p>
+            </div>
+            <!-- RAZOR SHELL -->
+
+            <!-- AQUA JET -->
+            <div class="col-md-3 col-12 text-center text-dark p-3 rounded-4 border-5 my-3" id="aj-card">
+                <img src="./images/oshawottAquaJet.gif" class="img-fluid shadow rounded-4">
+                <h3 class="my-3" id="aqua-jet">AQUA JET</h3>
+                <p>Aqua Jet is a Water-type priority move that allows Oshawott to close distances rapidly and strike before its opponent can react. By surrounding itself in a concentrated burst of water, Oshawott propels itself forward at incredible speeds, transforming into a living torpedo.</p>
+                <p>This move is particularly effective for getting out of dangerous situations, dodging incoming attacks, or delivering a decisive finishing blow when speed is of the essence.</p>
+            </div>
+            <!-- AQUA JET -->
+        </div>
+
+    </div> 
+<!-- STATS -->
+
+    <div class="container-fluid p-3 p-lg-5" id="pokemon-evolutions">
+        <h3 class="text-center my-3 display-3" id="oshawott-evolution">OSHAWOTT'S EVOLUTIONS</h3>
+            <div class="row d-flex justify-content-around">
+            <!-- OSHAWOTT -->
+            <div class="col-md-3 col-12 text-center text-dark p-3 rounded-3 border-5 my-3" id="evolutions-oshawott">
+                <img src="./images/oshawottCard.webp" class="img-fluid shadow rounded-5">
+                <h3 class="m-3">OSHAWOTT</h3>
+                <p>#0501</p>
+                <p>lvl. 01</p>
+                <p id="pokemon-type-water">Water</p>
+            </div>
+            <!-- OSHAWOTT -->
+
+            <!-- DEWOTT -->
+            <div class="col-md-3 col-12 text-center text-dark p-3 rounded-4 border-5 my-3" id="evolutions-oshawott">
+                <img src="./images/dewottCard.jpg" class="img-fluid shadow rounded-5">
+                <h3 class="m-3">DEWOTT</h3>
+                <p>#0502</p>
+                <p>lvl. 17</p>
+                <p id="pokemon-type-water">Water</p>
+            </div>
+            <!-- DEWOTT -->
+
+            <!-- SAMUROTT -->
+            <div class="col-md-3 col-12 text-center text-dark p-3 rounded-3 border-5 my-3" id="evolutions-oshawott">
+                <img src="./images/samurottCard.jpg" height="590" class="img-fluid shadow rounded-5">
+                <h3 class="m-3">SAMUROTT</h3>
+                <p>#0503</p>
+                <p>lvl. 36</p>
+                <p id="pokemon-type-water">Water</p>
+            </div>
+            <!-- SAMUROTT -->
+
+            <!-- DARK SAMUROTT -->
+            <div class="col-md-3 col-12 text-center text-dark p-3 rounded-3 border-5 my-3" id="evolutions-oshawott">
+                <img src="./images/darkSamurottCard.jpg" height="589" class="img-fluid shadow rounded-4">
+                <h3 class="m-3">SAMUROTT DARK</h3>
+                <p>#0503</p>
+                <p>lvl. 36 Legends: Arceus</p>
+                <div class="align-items-center">
+                    <div id="pokemon-type-water">Water</div>
+                    <span class="separator">|</span>
+                    <div id="pokemon-type-dark">Dark</div>
+                </div>
+            </div>
+            <!-- DARK SAMUROTT -->
+        </div>
+       
+    </div> 
+
+<!-- Site footer -->
+    <footer class="site-footer py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>Coeli Therese G. Brillante</h6>
+            <div class="my-0 justify-items-center"> 
+                <p>Integrative Programming and Technologies
+                    <br>University of the Assumption
+                    <br><i>Unisite Subdivision, Del Pilar, San Fernando, Philippines</i>
+                </p>
+            </div>
+        </div>
+        </div>
+      </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>

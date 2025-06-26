@@ -1,0 +1,257 @@
+body{
+    background-color: #F5F0CD;
+}
+
+#navigation-bar{
+    background: #3674B5;
+    position: sticky;
+    border-bottom: #F5F0CD;
+}
+
+#main-body{
+    overflow-x: hidden;
+}
+#header-title{
+    color: #F5F0CD;
+    font-weight: lighter;
+}
+
+#navigation-elements{
+    color: #F5F0CD;
+}
+
+#pokemon-main-page{
+    background-image: url(./images/mainPageBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+
+#pokemon-description{
+    background-color: #F5F0CD;
+}
+
+#table-stats{
+    border-bottom: 1rem;
+    table-layout: fixed;
+}
+
+th {
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.vitals-table {
+    font-size: 0.75rem;
+    border-collapse: collapse;
+    width: 100%;
+    color: #444;
+    table-layout: fixed;
+}
+.vitals-table th,
+.vitals-table td {
+    padding: 8px 5px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
+.vitals-table th {
+    white-space: nowrap;
+    font-weight: 600;
+    color: #555;
+}
+.vitals-table th:nth-child(1),
+.vitals-table td:nth-child(1) {
+    width: 25%;
+}
+.vitals-table th:nth-child(2),
+.vitals-table td:nth-child(2) {
+    width: 12%;
+}
+.vitals-table th:nth-child(3),
+.vitals-table td:nth-child(3) {
+    width: 28%;
+}
+.vitals-table th:nth-child(4),
+.vitals-table td:nth-child(4) {
+    width: 17.5%;
+}
+.vitals-table th:nth-child(5),
+.vitals-table td:nth-child(5) {
+    width: 17.5%;
+}
+
+.vitals-table tr:last-child th,
+.vitals-table tr:last-child td {
+    border-bottom: none;
+}
+.vitals-table tfoot tr th,
+.vitals-table tfoot tr td {
+    font-weight: 600;
+    border-top: 1px solid #d0d0d0;
+    border-bottom: none;
+}
+.cell-num {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
+.cell-barchart {
+    position: relative;
+    border-radius: 4px;
+    padding: 8px;
+}
+.barchart-bar {
+    height: 30%;
+    background-color: #4CAF50;
+    border-radius: 4px;
+    transition: width 0.3s ease-out;
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    transform: translateY(-50%);
+    right: 8px;
+    width: calc(var(--bar-width) - 16px);
+}
+
+.barchart-rank-1 { background-color: #3674B5;}
+.barchart-rank-2 { background-color: #578FCA;}
+.barchart-rank-3 { background-color: #FADA7A;}
+.barchart-rank-4 { background-color: #F5F0CD;}
+
+.fs-6 {
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.mt-3 {
+    margin-top: 1rem;
+}
+
+.vitals-table th:first-child {
+    width: 30%;
+}
+
+.vitals-table td:nth-child(2) {
+    width: 70%;
+    word-wrap: break-word;
+}
+
+#Water{
+    color: #3674B5;
+    font-weight: bolder;
+}
+
+#base-stats{
+    color: #3674B5;
+    font-weight: bolder;
+}
+
+#pokedex-data{
+    color: #3674B5;
+    font-weight: bolder;
+}
+
+#breeding{
+    color: #3674B5;
+    font-weight: bolder;
+}
+
+#male{
+    color: #3674B5;
+}
+
+#female{
+    color: #EF5A6F;
+}
+
+#pokemon-skills{
+    background-image: url(./images/waterbgimg.png);
+}
+
+#hydro-pump{
+    color: #3674B5;
+    font-weight: lighter;
+}
+
+#razor-shell{
+    color: #3674B5;
+    font-weight: lighter;
+}
+
+#aqua-jet{
+    color: #3674B5;
+    font-weight: lighter;
+}
+
+#oshawott-attacks{
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
+#aj-card, 
+    #rs-card,
+        #hp-card{
+            background-color: #F5F0CD;
+        }
+
+#pokemon-evolutions{
+    background-color: #F5F0CD;
+}
+
+#oshawott-evolution{
+    color: #3674B5;
+    font-weight: lighter;
+}
+
+.align-items-center {
+  text-align: center;
+}
+
+#pokemon-type-water,
+#pokemon-type-dark {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.separator {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#pokemon-type-water{
+    color: #3674B5;
+    font-weight: bold;
+}
+
+#pokemon-type-dark{
+    color: #090040;
+    font-weight: bold;
+}
+
+#rs-card{
+    float: left; 
+}
+
+#Dr-Juniper-Description{
+    text-align: left;
+}
+
+#Dr-Juniper-Description-Header{
+    color: #3674B5;
+}
+
+#Dr-Juniper-Description-Paragraph{
+    font-size: large;
+}
+
+#nav-links :hover{
+    color: #FADA7A;
+}
+
+#evolutions-oshawott, h3{
+    color: #3674B5;
+    font-weight: lighter;
+}
